@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>Boot4</title>
+
+    <!-- Bootstrap -->
+    <link href="lib/boot/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/boot4.css"/>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!--导航条-->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img src="img/boot4/1.svg" height="72px"/></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">经济</a></li>
+                <li><a href="#">是否</a></li>
+                <li><a href="#">到了</a></li>
+                <li><a href="#">面试</a></li>
+                <li><a href="#" class="btn btn-default">颠三倒四</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+<!--广告-->
+<div class="bore">
+    <div class="container mycon">
+        <img src="img/boot4/2.svg" height="190px"/>
+        <p>使用本地容器支持的<br/>开源通用<br/>系统可见性</p>
+        <a href="#" class="btn btn-default btn-lg">立即获取</a>
+    </div>
+</div>
+<!--区块-->
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <img src="img/boot4/3.svg" width="100%"/>
+            </div>
+            <div class="col-sm-6">
+                <p>Docker监控，智能Kubernetes, Mesos和Swarm集成的报警+故障排除</p>
+            </div>
+            <div class="col-sm-3">
+                <a href="#">获取更多信息</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!--主体1-->
+<main class="maina">
+    <div class="container">
+        <p>Sysdig是开源的，系统级的探索：捕获来自正在运行的Linux实例的系统状态和活动，然后保存，过滤和分析</p>
+        <p>Sysdig在Lua中是可编写脚本的，并且包括一个命令行界面和一个强大的交互式UI，csysdig，它在终端中运行。想想sysdig作为strace + tcpdump + htop + iftop + lsof + transaction tracing + awesome sauce。</p>
+    </div>
+</main>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="lib/jQuery/jquery-3.1.1.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="lib/boot/js/bootstrap.js"></script>
+</body>
+</html>
